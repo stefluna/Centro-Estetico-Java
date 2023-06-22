@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Software per Centro Estetico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+      .img-background{
+        background-image: url("img-spa.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+      }
+      .img-container{display:flex;
+      justify-content: center;
+      }
+      .img-container img{width: 33.33%;
+      height: auto;}    
+      #centrato {
+            margin: 0 auto;
+        }
+        .first-text{
+          color: rgb(255, 255, 255);
+            text-shadow: 3px 3px 3px   #333; 
+            font-size:xx-large;
+        } 
+        .btn{
+            background-color: rgba(255, 228, 196, 0);
+            border-color: darksalmon;
+            border-width: 2px;
+            padding: 15px 40px;
+            font-weight: bold;
+            display: flex;
+            font-size: 17px;
+            border-radius: 5px;
+            cursor: pointer;
+            user-select: none;
+            margin: 30px;
+            box-shadow: 0px 5px 0px 0px #333;
+            transition: all 0.1s ease-in-out;           
+        }
+        .btn:active{
+            transform: translateY(10px);
+            box-shadow: 0 0 0 0 #333;
+        }
+       .btn:hover{
+        background-color: darksalmon;
+       }
+       .btnForm{
+        justify-content: center;
+        display: flex;
+       }
+    </style>
+  </head>
+
+
+  <body class = "img-background">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Menu</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contatti">Form di Contatto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Contatti GitHub">Contatti GitHub</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#video1">Video</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+
+
+    <!--Titolo -->
+    <h1 style="text-align: center">EstheticPro</h1>
+    <br><br>
+    <h3 Style="text-align: center"> Benvenuti nel futuro dell'estetica!  </h3> 
+    <br>
+    <p style="text-align: center">Presentiamo con orgoglio il nostro innovativo software,
+       il compagno perfetto per il tuo centro estetico. Con una combinazione di tecnologia all'avanguardia e intuizione di design,
+        il nostro software è progettato per semplificare ogni aspetto della gestione del tuo centro,
+       consentendoti di concentrarti sulle tue passioni e far brillare la tua bellezza interiore ed esteriore.Il nostro software è un software 
+       per centro estetico, che permette di gestire tutte le informazioni necessarie per il centro estetico, come i clienti, i servizi, i pazienti
+      </p>
+    <br><br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <br>
+    <div style="text-align: center;"> <img src="img5.jfif" class= "img-fluid" alt= "c'è la nostra immagine"></div>
+    <br>
+
+
+    <!-- bottoni-->
+    <div class = "img-container"> 
+      <!--<button class="btn col-md-2 btn-primary text-center btn-danger">Contattaci</button>
+      <button class="btn col-md-2 btn-primary text-center btn-danger">Contattaci</button>-->
+    <a href="#contatti"><button type="button" class ="btn" class="btn col-md-3 btn btn-outline-danger disabled">Contatti</button></a>
+    <a href="#Approfondisci"><button type="button" class ="btn" class="btn col-md-3 btn-outline-danger disabled">Approfondisci</button></a>
+    </div>
+    <br><br>
+    <h3 Style="text-align: center"> I NOSTRI PUNTI DI FORZA SONO </h3> 
+    <br><br>
+    <ul>
+        <li>
+            <h5>INTERFACCIA DI ACCESSO</h5>
+            <p>Permetterà l’autenticazione in base al ruolo di accesso. Selezionare l’attività del
+                proprio interesse.</p>
+        </li>
+        <li>
+            <h5>REGISTRARE NUOVI CLIENTI</h5>
+            <p> Permetterà all’operatore di inserire nuovi clienti nel proprio database.</p>
+        </li>
+        <li>
+            <h5>GESTIRE L’ANAGRAFICA DEL CLIENTE</h5>
+            <p>
+                Permetterà all’operatore di visualizzare o modificare i dati del cliente.
+            </p>
+        </li>
+        <li>
+            <h5>GESTIONE OPERATORI </h5>
+            <p>Permetterà all’amministratore di gestire i suoi operatori e i loro relativi ruoli.   </p>
+        </li>
+        <li>
+            <h5>GESTIONE TRATTAMENTI</h5>
+            <p>Permetterà al responsabile del reparto di gestire i trattamenti del salone.</p>
+        </li>
+        <li>
+            <h5>GESTIONE APPUNTAMENTI</h5>
+            <p>Permetterà alla segreteria di gestire gli appuntamenti del salone.</p>
+        </li>
+        <li>
+            <h5>GESTIONE RISORSE</h5>
+            <p>Permetterà al salone di gestire le proprie stanze e macchinari.</p>
+        </li>
+        <li>
+            <h5>GESTIONE PAGAMENTI</h5>
+            <p>Permetterà al salone di sapere tutti i movimenti di denaro compresi eventuali
+                guadagni o eventuali perdite.</p>
+        </li>
+        <li>
+            <h5>GESTIONE PRODOTTI</h5>
+            <p>Permetterà al salone di gestire i propri prodotti.</p>
+        </li>
+    </ul>
+    <br><br>
+
+
+    <!--Carousel-->
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="text-align: center" data-bs-interval="2000">
+          <img src="img1.jfif"  alt="img1 ">
+        </div>
+        <div class="carousel-item" style="text-align: center" data-bs-interval="2000">
+          <img src="img2.jfif"  alt="img2">
+        </div>
+        <div class="carousel-item" style="text-align: center" data-bs-interval="2000">
+          <img src="img3.jfif" alt="img3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- approfondimenti-->
+    <div id="Approfondisci" style="text-align: center">
+        <br/>
+        <h4>LE NOSTRE INTERFACCE</h4>
+        <br/>
+        <ul>
+        <li>
+         <h5 style="text-align: left">Cliente</h5>
+        <p> Ecco a voi l'interfaccia della finestra cliente qui si possono aggiungere, modificare, visualizzare e rimuovere i dati di un cliente in modo facile e intuitivo.</p>
+        <img src = "Form_Cliente.jpg" alt = "Form Cliente"></li>
+        <li>
+        
+            <h5 style="text-align: left">Prodotti</h5>
+        <p>Ecco a voi l'interfaccia della finestra prodotti qui si possono aggiungere, modificare, visualizzare e rimuovere i dati di un prodotto in modo facile e intuitivo.</p>
+        <img src = "Form_Cliente.jpg" alt = "Form Cliente"></li>
+
+
+        <li><h5 style="text-align: left">Operatore</h5>
+        <p> Ecco a voi l'interfaccia della finestra operatore qui si possono aggiungere, modificare, visualizzare e rimuovere i dati di un operatore in modo facile e intuitivo.</p>
+        <img src = "Form_Cliente.jpg" alt = "Form Cliente"></li>
+        
+        <li><h5 style="text-align: left">Trattamenti</h5>
+        <p> Ecco a voi l'interfaccia della finestra trattamenti qui si possono aggiungere, modificare, visualizzare e rimuovere i dati di un trattamento in modo facile e intuitivo.</p>
+        <img src = "Form_Cliente.jpg" alt = "Form Cliente"></li>
+    </ul>
+    </div>
+
+
+    <!--Video-->
+    <div>
+    <p>
+      <hr/>
+<section class = "terzo elemento">
+  <h2 id="video1"><b>Presentazione Software</b></h2>
+<div id="video" class="row col-12">
+
+  <video controls poster="/images/w3html5.gif">
+  <source src="CENTROESTETICO2.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video> 
+</div>
+<hr/>
+</section>
+
+<!--form di contatto-->
+<section>
+  <div>
+    <h2 id="contatti" style="text-align: center"><b>Contattaci</b></h2>
+  </div>
+  <form action="GET">
+    <div id="centrato" class="row col-md-4  ">
+    <div class="form-group">
+        <label for="nome"><b>Nome:</b></label>
+        <input id="nome" type="text" class="form-control" placeholder="Inserisci il tuo nome" required>
+    </div>
+    <div class="form-group">
+        <label for="cognome"><b>Cognome:</b></label>
+        <input id="cognome" type="text" class="form-control" placeholder="Inserisci il tuo cognome" required>
+    </div>
+    <div class="form-group">
+        <label for="email"><b>Email:</b></label>
+        <input id="email" type="email" class="form-control" placeholder="Inserisci la tua email" required>
+    </div>
+    <div class="form-group">
+        <label for="numero"><b>Numero</b></label>
+        <input id="numero" type="text" class="form-control" placeholder="+39" required>
+    </div>          
+  </div>
+  </div>
+  <div class = "btnForm">
+    <button type="submit" class ="btn" class="btn col-md-3 btn btn-outline-danger disabled">Invia</button>
+  </div>
+</form>
+</section>
+
+
+<hr>
+
+    <!-- Contatti GITHUB-->
+    <div id = "Contatti GitHub" class ="img-container" style="text-align: center">
+      <a href="https://github.com/stefluna">
+        <img src="GitHub-Logo.png">
+      <p>Stefania</p>
+    </a>
+    <a href = "https://github.com/MattVer11">
+      <img src="GitHub-Logo.png">
+      <p>Mattia</p>
+    </a>
+    <a href = "https://github.com/GREGORIOLB">
+      <img src="GitHub-Logo.png">
+      <p>Gregorio</p>
+    </a> 
+    </div>
+
+
+    <div class ="img-container" style="text-align: center">
+      <a href="https://github.com/Gurgant">
+        <img src="GitHub-Logo.png">
+      <p>Vladislav</p>
+    </a>
+    <a href = "https://github.com/Gianni">
+      <img src="GitHub-Logo.png">
+      <p>Giovanni</p>
+    </a> 
+    <a href = "https://github.com/matteopilia">
+      <img src="GitHub-Logo.png">
+      <p>Matteo</p>
+    </a>
+    </div>
+
+  </body>
+</html>
